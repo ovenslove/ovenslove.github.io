@@ -393,8 +393,17 @@ body {
 }
 
 #header-inner {
-  position: relative;
+  position: fixed;
   overflow: hidden;
+  top: 0;
+  left: 2%;
+  width: 96%;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 10;
+  margin: 0;
 }
 
 #banner {
